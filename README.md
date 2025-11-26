@@ -4,7 +4,7 @@ Projeto: **Circuito Saquarema Verde** — Uma plataforma web para centralizar in
 # Visão geral
 
 Uma plataforma que reúne informações sobre trilhas, cachoeiras, biodiversidade, horários, disponibilidade e eventos locais. Objetivos principais:
-•	Facilitar o planejamento de visitas.
-•	Centralizar dados atualizados (condições das trilhas, regras, horários).
-•	Permitir administradores atualizarem disponibilidade e eventos.
-•	Promover turismo sustentável e interação com a comunidade.
+-	Facilitar o planejamento de visitas.
+-	Centralizar dados atualizados (condições das trilhas, regras, horários).
+-	Permitir administradores atualizarem disponibilidade e eventos.
+-	Promover turismo sustentável e interação com a comunidade.
