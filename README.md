@@ -10,8 +10,12 @@ Uma plataforma que reúne informações sobre trilhas, cachoeiras, biodiversidad
 -	Promover turismo sustentável e interação com a comunidade.
 
  # Estrutura Proposta do Repositório
-
- # Tecnologias Sugeridas
+ -
+ -
+ -
+ -
+ 
+ # Tecnologia Sugeridas
  
 -	Frontend: React (Vite) ou Next.js — interface rápida e acessível. Tailwind CSS para estilo.
 -	Backend: Node.js + Express (ou Fastify) para rotas RESTful. Alternativa: NestJS para estrutura mais robusta.
@@ -19,4 +23,34 @@ Uma plataforma que reúne informações sobre trilhas, cachoeiras, biodiversidad
 -	Autenticação: JWT com refresh tokens + hashing de senhas (bcrypt).
 -	Hospedagem: Vercel/Netlify para frontend; DigitalOcean/AWS/GCP para backend e banco (ou um cluster Kubernetes para escala).
 -	Monitoramento: Prometheus + Grafana e logs centralizados (ELK ou Loki).
+
+# Requisitos (como issues/user stories)
+
+-	Como usuário quero ver lista de atrações para planejar minha visita.
+-	Como usuário quero filtrar por tipo (trilha, cachoeira, mirante) e por dificuldade.
+-	Como administrador quero criar/editar disponibilidade e horários de funcionamento de eventos e temporadas.
+-	Como administrador quero publicar novidades e avisos (ex.: trilha fechada).
+-	Como administrador quero fazer login em área restrita.
+-	Como sistema devo responder rapidamente com alta concorrência (escala horizontal).
+-	Como sistema devo proteger dados pessoais dos administradores.
+
+# Atrações
+
+-	GET /api/attractions — parâmetros: ?type=&difficulty=&page=&q=
+-	GET /api/attractions/:id
+-	POST /api/attractions — (admin) cria atração
+-	PUT /api/attractions/:id — (admin) atualiza
+-	DELETE /api/attractions/:id — (admin)
+  
+# Eventos & Disponibilidade
+
+-	GET /api/events?from=&to=&attractionId=
+-	POST /api/events — (admin) cria evento/temporada
+-	PUT /api/events/:id — (admin)
+-	PATCH /api/availability/:attractionId — atualiza horários/fechamentos
+	
+# Notificações
+-	GET /api/alerts — avisos ativos (ex.: trilha fechada)
+-	POST /api/alerts — (admin)
+
 
