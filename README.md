@@ -8,3 +8,5 @@ Uma plataforma que reúne informações sobre trilhas, cachoeiras, biodiversidad
 -	Centralizar dados atualizados (condições das trilhas, regras, horários).
 -	Permitir administradores atualizarem disponibilidade e eventos.
 -	Promover turismo sustentável e interação com a comunidade.
+
+ # Estrutura proposta do repositório
