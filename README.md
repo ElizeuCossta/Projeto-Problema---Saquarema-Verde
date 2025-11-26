@@ -11,7 +11,7 @@ Uma plataforma que reúne informações sobre trilhas, cachoeiras, biodiversidad
 
  # Estrutura Proposta do Repositório
 
- # Tecnologias sugeridas
+ # Tecnologias Sugeridas
  
 -	Frontend: React (Vite) ou Next.js — interface rápida e acessível. Tailwind CSS para estilo.
 -	Backend: Node.js + Express (ou Fastify) para rotas RESTful. Alternativa: NestJS para estrutura mais robusta.
