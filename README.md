@@ -10,3 +10,13 @@ Uma plataforma que reúne informações sobre trilhas, cachoeiras, biodiversidad
 -	Promover turismo sustentável e interação com a comunidade.
 
  # Estrutura Proposta do Repositório
+
+ # Tecnologias sugeridas
+ 
+-	Frontend: React (Vite) ou Next.js — interface rápida e acessível. Tailwind CSS para estilo.
+-	Backend: Node.js + Express (ou Fastify) para rotas RESTful. Alternativa: NestJS para estrutura mais robusta.
+-	Banco de dados: PostgreSQL (relacional) ou PostgreSQL + PostGIS (se houver dados geoespaciais). Redis para cache.
+-	Autenticação: JWT com refresh tokens + hashing de senhas (bcrypt).
+-	Hospedagem: Vercel/Netlify para frontend; DigitalOcean/AWS/GCP para backend e banco (ou um cluster Kubernetes para escala).
+-	Monitoramento: Prometheus + Grafana e logs centralizados (ELK ou Loki).
+
