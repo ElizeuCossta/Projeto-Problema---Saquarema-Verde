@@ -85,13 +85,4 @@ Criar um website moderno, funcional e seguro que simplifique o acesso às inform
 
 O projeto incentiva estudantes, profissionais e entusiastas a desenvolvem soluções inovadoras e colaborativas. Todo insight é bem-vindo na construção de uma plataforma cada vez mais eficiente.
 
----
 
-Se quiser, posso complementar o README com:
-
-✅ Tecnologias utilizadas  
-✅ Estrutura de pastas  
-✅ Instalação e execução  
-✅ Fluxo do sistema  
-✅ Protótipo visual (mockup)  
-É só pedir!
