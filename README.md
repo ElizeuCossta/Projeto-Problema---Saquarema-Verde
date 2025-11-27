@@ -1,7 +1,7 @@
 # Saquarema Verde Online 
 **Circuito Saquarema Verde** — Uma plataforma web para centralizar informações sobre atrações naturais e eventos dos Parque Estadual da Costa do Sol e Reserva Ecológica Estadual de Jacarepiá.
 
-**O Desafio:** Queremos fortalecer o ecoturismo, mas a informação sobre as atrações está confusa e desatualizada.
+**Desafio:** Queremos fortalecer o ecoturismo, mas a informação sobre as atrações está confusa e desatualizada.
 - Turistas têm dificuldade em encontrar:
 - Condições das trilhas.
 - Eventos programados.
