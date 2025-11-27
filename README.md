@@ -1,6 +1,12 @@
 # Saquarema Verde Online — Repositório (projeto)
 Projeto: **Circuito Saquarema Verde** — Uma plataforma web para centralizar informações sobre atrações naturais e eventos dos Parque Estadual da Costa do Sol e Reserva Ecológica Estadual de Jacarepiá.
 
+# Membros da Equipe
+
+- **Cláudia Trindade Marques**
+- **Elizeu da Costa Oliveira**
+- **Lucas Trindade Marques**
+
 # Visão Geral
 
 Uma plataforma que reúne informações sobre trilhas, cachoeiras, biodiversidade, horários, disponibilidade e eventos locais. Objetivos principais:
@@ -24,7 +30,7 @@ Uma plataforma que reúne informações sobre trilhas, cachoeiras, biodiversidad
 -	Hospedagem: Vercel/Netlify para frontend; DigitalOcean/AWS/GCP para backend e banco (ou um cluster Kubernetes para escala).
 -	Monitoramento: Prometheus + Grafana e logs centralizados (ELK ou Loki).
 
-# Requisitos (como issues/user stories)
+# Requisitos 
 
 -	Como usuário quero ver lista de atrações para planejar minha visita.
 -	Como usuário quero filtrar por tipo (trilha, cachoeira, mirante) e por dificuldade.
