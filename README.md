@@ -42,21 +42,21 @@ Uma plataforma que reúne informações sobre trilhas, cachoeiras, biodiversidad
 
 # Atrações
 
--	GET /api/attractions — parâmetros: ?type=&difficulty=&page=&q=
--	GET /api/attractions/:id
--	POST /api/attractions — (admin) cria atração
--	PUT /api/attractions/:id — (admin) atualiza
--	DELETE /api/attractions/:id — (admin)
+-	
+-	
+-	
+-	
+-	
   
 # Eventos & Disponibilidade
 
--	GET /api/events?from=&to=&attractionId=
--	POST /api/events — (admin) cria evento/temporada
--	PUT /api/events/:id — (admin)
--	PATCH /api/availability/:attractionId — atualiza horários/fechamentos
+-	
+-	
+-	
+-	
 	
 # Notificações
--	GET /api/alerts — avisos ativos (ex.: trilha fechada)
--	POST /api/alerts — (admin)
+-	
+-	
 
 
