@@ -1,6 +1,12 @@
 # 🌿 Saquarema Verde Online
 Uma plataforma digital desenvolvida para facilitar o acesso às informações ambientais, turísticas e culturais do **Circuito Saquarema Verde**, com foco no **Parque Estadual da Costa do Sol** e na **Reserva Ecológica Estadual de Jacarepiá**.
 
+# Membros da Equipe
+
+- **Cláudia Trindade Marques**
+- **Elizeu da Costa Oliveira**
+- **Lucas Trindade Marques**
+
 ---
 
 ## 📘 Visão Geral do Projeto
