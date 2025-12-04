@@ -87,6 +87,29 @@ const db = mysql.createConnection({
 
 });
 
+**3. Instalação e Inicialização**
+
+**1. Clone o repositório:**
+
+Bash
+
+git clone https://docs.github.com/pt/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github
+cd saqua-verde
+
+**2. Instale as dependências:**
+
+Bash
+
+npm install
+
+**3. Inicie o servidor:**
+
+Bash
+
+node server.js
+
+O servidor estará rodando em http://localhost:8080 (ou na porta definida por process.env.PORT).
+
 
 ## 🛠️ Requisitos do Sistema
 
