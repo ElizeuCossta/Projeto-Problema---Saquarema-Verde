@@ -65,7 +65,7 @@ Certifique-se de ter instalado:
 
 - **Node.js** (versão recomendada v18+)
 
-- **MySQL Server** (ou MariaDB)
+- **MySQL Workbench**
 
 **2. Configuração do Banco de Dados**
 
@@ -101,6 +101,13 @@ cd saqua-verde
 Bash
 
 npm install
+
+"bcryptjs": "^3.0.3",
+    "body-parser": "^2.2.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.15.3"
 
 **3. Inicie o servidor:**
 
