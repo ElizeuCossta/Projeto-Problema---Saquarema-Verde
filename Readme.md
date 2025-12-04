@@ -48,13 +48,14 @@ Desenvolver uma solução digital capaz de:
 
 ### 🛠️ Stack Tecnológica (Backend)
 Com base no package.json e server.js fornecidos, a arquitetura atual do Backend é a seguinte:
-- Linguagem: JavaScript (Node.js)
-- Framework: Express.js
-- Banco de Dados: MySQL (com mysql2)
-- Autenticação: JWT (JSON Web Tokens) com jsonwebtoken e bcryptjs para hashing de senhas.
-- Middleware: cors e body-parser.
-Dependências Principais
-Pacote	Descrição
+- **Linguagem**: JavaScript (Node.js)
+- **Framework**: Express.js
+- **Banco de Dados**: MySQL (com mysql2)
+- **Autenticação**: JWT (JSON Web Tokens) com jsonwebtoken e bcryptjs para hashing de senhas.
+- **Middleware**: cors e body-parser.
+**Dependências Principais**
+
+**Pacote Descrição**
 express	Core framework para rotas e middleware.
 mysql2	Driver para conexão eficiente com o MySQL.
 jsonwebtoken	Criação e verificação de tokens de autenticação.
@@ -71,11 +72,17 @@ Certifique-se de ter instalado:
 1.	Crie um banco de dados chamado saquarema_verde.
 2.	Atualize a configuração de conexão no arquivo server.js com suas credenciais:
 JavaScript
+
 const db = mysql.createConnection({
+
     host: '127.0.0.1',
+
     user: 'root', // <-- Seu usuário
+
     password: '', // <-- Sua senha
+
     database: 'saquarema_verde' 
+
 });
 
 
