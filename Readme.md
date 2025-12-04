@@ -46,7 +46,7 @@ Desenvolver uma solução digital capaz de:
 - Usuários que buscam informações sobre ecoturismo.
 - Procuram trilhas, atividades ao ar livre, dicas de segurança, eventos e regras de visitação.
 
-### 🛠️ Stack Tecnológica (Backend)
+## 🛠️ Stack Tecnológica (Backend)
 Com base no package.json e server.js fornecidos, a arquitetura atual do Backend é a seguinte:
 - **Linguagem**: JavaScript (Node.js)
 - **Framework**: Express.js
@@ -55,14 +55,19 @@ Com base no package.json e server.js fornecidos, a arquitetura atual do Backend 
 - **Middleware**: cors e body-parser.
 
 ________________________________________
-### 🚀 Como Executar o Projeto (Backend)
+## 🚀 Como Executar o Projeto (Backend)
 
 Siga os passos abaixo para configurar e rodar o servidor localmente.
+
 *1. Pré-requisitos**
+
 Certifique-se de ter instalado:
+
 •	Node.js (versão recomendada v18+)
 •	MySQL Server (ou MariaDB)
+
 2. Configuração do Banco de Dados
+
 1.	Crie um banco de dados chamado saquarema_verde.
 2.	Atualize a configuração de conexão no arquivo server.js com suas credenciais:
 JavaScript
