@@ -28,6 +28,10 @@ Desenvolver uma solução digital capaz de:
 - Proporcionar acesso fácil e rápido a dados atualizados.
 - Auxiliar o planejamento de visitas, tornando o turismo mais **sustentável, consciente e seguro**.
 - Atender às demandas dos parques e reservas com foco na **experiência do usuário**.
+- Facilite o planejamento de visitas, reunindo dados sobre **trilhas, cachoeiras, biodiversidade e mirantes**.
+- Centralize dados atualizados **condições das trilhas, regras, horários de funcionamento, disponibilidade**.
+- Permita aos **administradores atualizar rapidamente eventos e disponibilidade**.
+- Promova o turismo **sustentável e a interação com a comunidade local**.
 
 ---
 
@@ -42,7 +46,38 @@ Desenvolver uma solução digital capaz de:
 - Usuários que buscam informações sobre ecoturismo.
 - Procuram trilhas, atividades ao ar livre, dicas de segurança, eventos e regras de visitação.
 
----
+### 🛠️ Stack Tecnológica (Backend)
+Com base no package.json e server.js fornecidos, a arquitetura atual do Backend é a seguinte:
+- Linguagem: JavaScript (Node.js)
+- Framework: Express.js
+- Banco de Dados: MySQL (com mysql2)
+- Autenticação: JWT (JSON Web Tokens) com jsonwebtoken e bcryptjs para hashing de senhas.
+- Middleware: cors e body-parser.
+Dependências Principais
+Pacote	Descrição
+express	Core framework para rotas e middleware.
+mysql2	Driver para conexão eficiente com o MySQL.
+jsonwebtoken	Criação e verificação de tokens de autenticação.
+bcryptjs	Hashing seguro de senhas para administradores.
+cors	Habilita requisições cross-origin (para o frontend).
+________________________________________
+🚀 Como Executar o Projeto (Backend)
+Siga os passos abaixo para configurar e rodar o servidor localmente.
+1. Pré-requisitos
+Certifique-se de ter instalado:
+•	Node.js (versão recomendada v18+)
+•	MySQL Server (ou MariaDB)
+2. Configuração do Banco de Dados
+1.	Crie um banco de dados chamado saquarema_verde.
+2.	Atualize a configuração de conexão no arquivo server.js com suas credenciais:
+JavaScript
+const db = mysql.createConnection({
+    host: '127.0.0.1',
+    user: 'root', // <-- Seu usuário
+    password: '', // <-- Sua senha
+    database: 'saquarema_verde' 
+});
+
 
 ## 🛠️ Requisitos do Sistema
 
@@ -65,6 +100,9 @@ Desenvolver uma solução digital capaz de:
 ### 🔒 Segurança de Dados
 - Proteção de credenciais e informações administrativas.
 - Boas práticas de segurança e prevenção de ataques.
+- Em um ambiente de produção, essas credenciais NUNCA devem ser codificadas diretamente. Use Variáveis de Ambiente (process.env).
+- Execute os scripts SQL necessários para criar as tabelas usuarios e eventos (estes scripts devem ser fornecidos separadamente).
+
 
 ---
 
