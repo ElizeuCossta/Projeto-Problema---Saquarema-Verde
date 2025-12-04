@@ -53,14 +53,16 @@ Com base no package.json e server.js fornecidos, a arquitetura atual do Backend 
 - **Banco de Dados**: MySQL (com mysql2)
 - **Autenticação**: JWT (JSON Web Tokens) com jsonwebtoken e bcryptjs para hashing de senhas.
 - **Middleware**: cors e body-parser.
+
 **Dependências Principais**
 
-**Pacote Descrição**
-express	Core framework para rotas e middleware.
-mysql2	Driver para conexão eficiente com o MySQL.
-jsonwebtoken	Criação e verificação de tokens de autenticação.
-bcryptjs	Hashing seguro de senhas para administradores.
-cors	Habilita requisições cross-origin (para o frontend).
+|**Pacote**  | **Descrição** |
+| - - - - -  | - - - - - - - |
+|express     |Core framework para rotas e middleware |
+|mysql2      |Driver para conexão eficiente com o MySQL |
+|jsonwebtoken|Criação e verificação de tokens de autenticação |
+|bcryptjs    |Hashing seguro de senhas para administradores |
+|cors        |Habilita requisições cross-origin para o frontend |
 ________________________________________
 🚀 Como Executar o Projeto (Backend)
 Siga os passos abaixo para configurar e rodar o servidor localmente.
