@@ -63,15 +63,15 @@ Siga os passos abaixo para configurar e rodar o servidor localmente.
 
 Certifique-se de ter instalado:
 
-• **Node.js** (versão recomendada v18+)
+- **Node.js** (versão recomendada v18+)
 
-• **MySQL Server** (ou MariaDB)
+- **MySQL Server** (ou MariaDB)
 
 **2. Configuração do Banco de Dados**
 
-• Crie um banco de dados chamado saquarema_verde.
+- Crie um banco de dados chamado saquarema_verde.
 
-• Atualize a configuração de conexão no arquivo server.js com suas credenciais:
+- Atualize a configuração de conexão no arquivo server.js com suas credenciais:
 
 JavaScript
 
