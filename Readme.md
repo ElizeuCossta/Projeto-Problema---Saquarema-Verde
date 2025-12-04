@@ -63,7 +63,7 @@ Siga os passos abaixo para configurar e rodar o servidor localmente.
 
 Certifique-se de ter instalado:
 
-- **Node.js** (versão recomendada v18+)
+- **Node.js**
 
 - **MySQL Workbench**
 
@@ -102,7 +102,8 @@ Bash
 
 npm install
 
-"bcryptjs": "^3.0.3",
+
+    "bcryptjs": "^3.0.3",
 
     "body-parser": "^2.2.1",
     
