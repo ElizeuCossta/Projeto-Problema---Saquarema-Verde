@@ -108,7 +108,7 @@ Bash
 
 node server.js
 
-O servidor estará rodando em http://localhost:8080 (ou na porta definida por process.env.PORT).
+O servidor estará rodando em http://localhost:8080.
 
 
 ## 🛠️ Requisitos do Sistema
