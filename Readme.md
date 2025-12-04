@@ -59,13 +59,13 @@ ________________________________________
 
 Siga os passos abaixo para configurar e rodar o servidor localmente.
 
-**1. Pré-requisitos**
+**1. Pré-Requisitos**
 
 Certifique-se de ter instalado:
 
-• Node.js (versão recomendada v18+)
+• **Node.js** (versão recomendada v18+)
 
-• MySQL Server (ou MariaDB)
+• **MySQL Server** (ou MariaDB)
 
 **2. Configuração do Banco de Dados**
 
