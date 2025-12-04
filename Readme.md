@@ -57,6 +57,7 @@ Com base no package.json e server.js fornecidos, a arquitetura atual do Backend 
 **Dependências Principais**
 
 |**Pacote**  | **Descrição** |
+
 | - - - - -  | - - - - - - - |
 |express     |Core framework para rotas e middleware |
 |mysql2      |Driver para conexão eficiente com o MySQL |
