@@ -55,9 +55,10 @@ Com base no package.json e server.js fornecidos, a arquitetura atual do Backend 
 - **Middleware**: cors e body-parser.
 
 ________________________________________
-🚀 Como Executar o Projeto (Backend)
+### 🚀 Como Executar o Projeto (Backend)
+
 Siga os passos abaixo para configurar e rodar o servidor localmente.
-1. Pré-requisitos
+*1. Pré-requisitos**
 Certifique-se de ter instalado:
 •	Node.js (versão recomendada v18+)
 •	MySQL Server (ou MariaDB)
